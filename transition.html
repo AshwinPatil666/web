@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            width:70vw;
+            height:70vh;
+            background-color:palegoldenrod;
+        }
+        .box{
+            width:20%;
+            height:20%;
+            background-color: rgb(120, 196, 219);
+            color:white;
+            /* transform:translate(200px);
+             transform:rotateY(45deg)
+             transform:skew(20deg)
+             transfrom:scale(1.5)
+              
+           
+           transition-property: transfrom;
+           transition-duration: 5s;
+           transition-timing-function: ease-in-out;
+           transition-delay: 5;
+           all sabpe lagta hai
+           
+           */
+           transition:transform 2s ease-in-out 1s;
+        }
+           
+        .box:hover{
+            transform:skew(20deg);
+            background-color: greenyellow;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
